@@ -1,10 +1,10 @@
 
 
-users = {}  # what is {}
-status = ""  # what is status ""
+users = {}  
+status = "" 
 
 
-def displaymenu():  # what is a function
+def displaymenu():  
     status = input('are you a registerd user?')
     if status == 'y':
         oldUser()
